@@ -1,0 +1,17 @@
+{
+  "name": "@test-pkg-remove-me/babel-preset",
+  "description": "Automatically load the css for the @test-pkg-remove-me design system.",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yucho/test-pkg-remove-me.git",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "!*.test.*",
+    "!__snapshots__",
+    "!__tests__"
+  ],
+  "dependencies": {
+    "@design-systems/babel-plugin-include-styles": "4.12.0"
+  }
+}
