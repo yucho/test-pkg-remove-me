@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`A It matches the snapshot 1`] = `
+<div>
+  <div
+    class="a"
+  >
+    This is a A component 
+  </div>
+</div>
+`;
