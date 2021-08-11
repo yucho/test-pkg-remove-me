@@ -1,6 +1,6 @@
 {
   "name": "@test-pkg-remove-me/c",
-  "version": "0.0.3-next.0",
+  "version": "0.0.3",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist",
