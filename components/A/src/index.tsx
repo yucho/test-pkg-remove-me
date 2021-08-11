@@ -8,7 +8,15 @@ interface AProps {
 
 /** A simple component. */
 export const A = (props: AProps) => {
-  return <div className={styles.a}>This is a A component {props.value}</div>;
+  return (
+    <div className={styles.a}>
+      This is a A component {props.value}
+      Add lots of lines Add lots of lines Add lots of lines Add lots of lines
+      Add lots of lines Add lots of lines Add lots of lines Add lots of lines
+      Add lots of lines Add lots of lines Add lots of lines Add lots of lines
+      Add lots of lines Add lots of lines Add lots of lines Add lots of lines
+    </div>
+  );
 };
 
 export default A;
